@@ -1,0 +1,186 @@
+.main {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 22px 0;
+}
+
+
+a.wrap {
+  display: block;
+  margin-bottom: 22px;
+}
+
+a.wrap:last-child {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+article.wrap {
+  margin-bottom: 8px;
+}
+
+
+article .head {
+  line-height: 58px;
+  font-size: 16px;
+}
+
+.head h2 {
+  float: left;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.head .more,
+.head .cates {
+  float: right;
+}
+
+.head .more:hover {
+  color: var(--theme-color);
+}
+
+.head .more:hover i {
+  background: var(--theme-color);
+}
+
+.more i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background: #b0b0b0;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.cates {
+  margin-top: 16px;
+}
+
+.cates li {
+  float: left;
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+.cates a {
+  display: block;
+  height: 26px;
+  line-height: 24px;
+  padding-bottom: 2px;
+}
+
+.cates a:hover,
+.cates a.active {
+  color: var(--theme-color);
+  border-bottom: 2px solid #ff6700;
+}
+
+article .goods {
+  float: left;
+  margin-left: -14px;
+}
+
+.goods li,
+.goods a {
+  float: left;
+}
+
+.goods a {
+  width: 234px;
+  height: 300px;
+  padding: 20px 0;
+  text-align: center;
+  background: #fff;
+  margin: 0 0 14px 14px;
+  font-size: 14px;
+  transition: all .2s linear;
+}
+
+
+
+.goods .big {
+  width: 234px;
+  height: 614px;
+  padding: 0;
+}
+
+.goods .big img {
+  display: block;
+  width: 234px;
+  height: 614px;
+  margin: 0;
+}
+
+.goods a:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.goods img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 18px;
+}
+
+.goods .name {
+  margin: 0 10px 2px;
+}
+
+.goods .dec {
+  margin: 0 10px 10px;
+  width: 100%;
+  font-size: 12px;
+  color: #b0b0b0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.goods .price {
+  color: var(--theme-color);
+  margin: 0 10px 14px;
+}
+
+.other .goods .small {
+  float: none;
+  display: block;
+  position: relative;
+  width: 234px;
+  height: 143px;
+}
+
+.small img {
+  width: 80px;
+  position: absolute;
+  height: 80px;
+  top: 32px;
+  right: 20px;
+}
+
+.small .detail {
+  position: absolute;
+  width: 94px;
+  left: 30px;
+  top: 40px;
+}
+
+.small .iconfont {
+  color: var(--theme-color);
+  line-height: 48px;
+  font-size: 48px;
+  position: absolute;
+  top: 48px;
+  right: 35px;
+}
+
+.small .title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.small .cat {
+  color: #b0b0b0;
+}

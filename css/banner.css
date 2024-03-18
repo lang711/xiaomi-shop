@@ -1,0 +1,158 @@
+.banner {
+
+  width: 100%;
+}
+
+.banner .wrap {
+  position: relative;
+}
+
+
+
+.category {
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  width: 234px;
+  height: 460px;
+  padding: 20px 0;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, .3);
+  z-index: 10;
+}
+
+
+
+.category > li a {
+  display: block;
+  padding-left: 30px;
+  line-height: 42px;
+  font-size: 14px;
+  width: 100%;
+  padding: 0 20px 0 30px;
+}
+
+.category > li > a span {
+  vertical-align: 1px;
+  float: left;
+}
+
+.category > li > a i {
+  font-size: 16px;
+  float: right;
+}
+
+.category > li:hover {
+  background: var(--theme-color);
+}
+
+.category > li:hover .hidden {
+  display: block;
+}
+
+.category li .hidden {
+  display: none;
+  position: absolute;
+  left: 234px;
+  top: 0;
+  background: #fff;
+  height: 100%;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .18);
+  color: #333;
+}
+
+
+
+.cats li a {
+  display: block;
+  padding: 18px 20px;
+  width: 265px;
+  height: 76px;
+  line-height: 40px;
+}
+
+.cats li a:hover {
+  color: var(--theme-color);
+}
+
+
+.cats li img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.cats li span {
+  float: right;
+  width: 172px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.swiper {
+  width: 100%;
+  position: relative;
+}
+
+.swiper .mask,
+.swiper img {
+  display: block;
+}
+
+.swiper .btn {
+  position: absolute;
+  width: 41px;
+  height: 69px;
+  background-image: url("https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png");
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.pre {
+  left: 234px;
+  background-position: -84px 0;
+}
+
+.pre:hover {
+  background-position: 0 0;
+}
+
+.next {
+  right: 0;
+  background-position: -125px 0;
+}
+
+.next:hover {
+  background-position: -42px 0;
+}
+
+.dots {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  width: 400px;
+  height: 21px;
+  text-align: right;
+}
+
+.dots span {
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 100%;
+  border: 2px solid rgba(255, 255, 255, .3);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dots span:hover,
+.dots span.active {
+  background: hsla(0, 0%, 100%, .4);
+  border-color: rgba(0, 0, 0, .4);
+}
